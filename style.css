@@ -1,0 +1,87 @@
+/* global */
+
+body {
+    color: white;
+    background-color: #101010;
+    font-family:ui-sans-serif,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+}
+
+div {
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.main-body {
+    color: #fff;
+    padding-inline: 30px;
+}
+
+
+/* Header section */
+
+.header {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+/* Profile section */
+.profile {
+    display: flex;
+}
+
+.profile > .description {
+    width: 50%;
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile > .photo {
+    width: 50%;
+}
+
+.profile > .photo > .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    max-height: 400px;
+}
+
+
+/* projects section */
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-item {
+    color: black;
+    border-radius: 0.25rem;
+    background-color: #F7F7F7;
+    display: flex;
+    width: 50%;
+}
+
+.project-item > .project-item-photo {
+    width: 50%;
+    max-height: 300px;
+}
+
+.project-item > .project-item-body {
+    width: 50%;
+}
+
+.list-account > i {
+    margin-right: 8px;
+}
+
+.contact {
+}
+
