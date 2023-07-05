@@ -1,21 +1,22 @@
 /* global */
 
+
+
 body {
-    line-height: 1.75rem;
-    color: white;
-    background-color: #101010;
+    color: #D1D5DB;
+    background-color: #111827;
     font-family:ui-sans-serif,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
 }
 
 a.nostyle:link {
     text-decoration: inherit;
-    color: white;
+    color: #D1D5DB;
     cursor: auto;
 }
 
 a.nostyle:visited {
     text-decoration: inherit;
-    color: white;
+    color: #D1D5DB;
     cursor: auto;
 }
 
@@ -25,10 +26,8 @@ div {
 }
 
 .main-body {
-    color: #fff;
-    padding-inline: 30px;
+    padding-inline: 3rem;
 }
-
 
 /* Header section */
 
@@ -49,7 +48,6 @@ div {
 
 .profile > .description {
     width: 50%;
-    font-size: 1.2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -78,9 +76,9 @@ div {
 }
 
 .project-item {
-    color: black;
+    color: #9CA3AF;
     border-radius: 0.25rem;
-    background-color: #F7F7F7;
+    background-color: #1F2937;
     display: flex;
     width: 45%;
     height: 280px;
@@ -95,8 +93,8 @@ div {
         transition: all 0.2s ease-out;
         box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
         top: -4px;
-        border: 1px solid #cccccc;
-        background-color: white;
+        border: 1px solid #182237;
+        background-color: #182237;
       }
     
       &:before {
@@ -132,19 +130,23 @@ div {
 }
 
 .project-item-body > .project-item-title {
-    font-size: 1.5rem;
+    padding-top:5px;
     font-weight: bold;
+    color: #D1D5DB;
     align-self: flex-start;
 }
 
 .project-item-body > .project-item-description {
-    padding-top: 0.5rem;
-    text-overflow: ellipsis;
+    overflow: hidden;
     flex-grow: 2;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
 }
 
 .project-item-tech-list {
     padding: 3px;
+    gap: 5px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -154,11 +156,11 @@ div {
     padding: 4px 8px;
     border-radius: 5px;
     display: flex;
+   
     align-items: center;
     align-content: center;
-    justify-content: center;
     text-align: center;
-    margin-right: 4px;
+    
 }
 
 .project-item-tech > i {
@@ -193,3 +195,76 @@ div {
 
 
 
+@media only screen and (max-width: 768px) {
+
+    body {
+        font-size: 3vw;
+        line-height: unset;
+    }
+
+    h1 {
+        font-size: 8.vw;
+    }
+
+    .profile {
+        flex-direction: column-reverse;
+    }
+
+    .profile > .photo {
+        width: 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .photo > .image {
+        width:80%;
+    }
+
+    .profile > .description {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .main-body {
+        padding-inline: 10px;
+    }
+
+    .projects {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-item {
+        width: 100%;
+        height: 350px;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .project-item {
+        flex-direction: column;
+        height: 400px;
+    }
+
+    .project-item > .project-item-photo {
+        width: 100%;
+        height: 50%;
+    }
+
+    .project-item-description {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
+    }
+
+    .project-item > .project-item-body {
+        width: 100%;
+        height: 50%;
+        padding-inline: 5px;
+    }
+}

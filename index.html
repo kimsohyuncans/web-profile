@@ -1,6 +1,7 @@
 <html lang="en">
     <head>
         <title>Rizky Tanjung</title>
+        <link rel="stylesheet" href="typography.css">
         <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
         <meta name="description" content="Rizky Tanjung">
@@ -20,15 +21,18 @@
                         <h1><span style="color:#00838D">Hi,</span> i'm Rizky</h1>
                     </div>
                     <div>
-                        i am a software developer from indonesia. lover of all things programming. currently into golang, flutter and typescript.<br/>
-                        i have a large experience in building highly scalable web and mobile applications.<br/>
+                        <div class="text">
+                        i am a software developer from indonesia. lover of all things programming. currently into golang, flutter and typescript.
+                        i have a large experience in building highly scalable web and mobile applications.
                         currently working as freelance software developer at <a href="" style="color:white">Upwork.com</a><br/>
                         you can hire me if you need:
+                        </div>
                         <ul>
                             <li>Frontend developer that build a beautiful web or mobile application</li>
                             <li>Backend engineer who build higly scalable and performance API</li>
                             <li>Software architect who design your end to end architecture application</li>
                         </ul>
+                    
                     </div>
                     <div class="list-account">
                         <i style="cursor: pointer;" onclick='window.open("https://www.linkedin.com/in/rizky-tanjung/")' class="fa-brands fa-linkedin fa-2xl"></i>
@@ -41,77 +45,34 @@
                 </div>
             </div>
 
-            <h1>Projects</h2>
+            <h1>Projects</h1>
             <div class="projects">
                 <div class="project-item">
-                    <image class="project-item-photo" src="https://placehold.co/500x350"></image>
+                    <image class="project-item-photo" src="data:image/jpeg;base64,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"></image>
                     <div class="project-item-body">
-                        <div class="project-item-title">project title</div>
-                        <div class="project-item-description">Lorem ipsum dolor sit amet, </div>
+                        <div class="project-item-title"><h2>project title </h2></div>
+                        <div class="project-item-description text">LorLorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,em ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet</div>
                         <div class="project-item-tech-list">
-                            <span class="project-item-tech react"><i class="fa-brands fa-react"></i><span>React</span></span>
-                            <span class="project-item-tech nodejs"><i class="fa-brands fa-node-js"></i>node js</span>
-                            <span class="project-item-tech golang"><i class="fa-brands fa-golang"></i>golang</span>
+                            <div class="project-item-tech react"><i class="fa-brands fa-react"></i><span>React</span></div>
+                            <div class="project-item-tech nodejs"><i class="fa-brands fa-node-js"></i>node js</div>
+                            <div class="project-item-tech golang"><i class="fa-brands fa-golang"></i>golang</div>
                         </div>
                     </div>
                 </div>
-                <a class="project-item">
-                    <image class="project-item-photo" src="https://placehold.co/500x350"></image>
-                    <div class="project-item-body">
-                        <div class="project-item-title">project title</div>
-                        <div class="project-item-description">Lorem ipsum dolor sit amet, </div>
-                        <div class="project-item-tech-list">
-                            <span class="project-item-tech react"><i class="fa-brands fa-react"></i><span>React</span></span>
-                            <span class="project-item-tech nodejs"><i class="fa-brands fa-node-js"></i>node js</span>
-                            <span class="project-item-tech golang"><i class="fa-brands fa-golang"></i>golang</span>
-                        </div>
-                    </div>
-                </a>
-                <a class="project-item">
-                    <image class="project-item-photo" src="https://placehold.co/500x350"></image>
-                    <div class="project-item-body">
-                        <div class="project-item-title">project title</div>
-                        <div class="project-item-description">Lorem ipsum dolor sit amet, </div>
-                        <div class="project-item-tech-list">
-                            <span class="project-item-tech react"><i class="fa-brands fa-react"></i><span>React</span></span>
-                            <span class="project-item-tech nodejs"><i class="fa-brands fa-node-js"></i>node js</span>
-                            <span class="project-item-tech golang"><i class="fa-brands fa-golang"></i>golang</span>
-                        </div>
-                    </div>
-                </a>
-                <a class="project-item">
-                    <image class="project-item-photo" src="https://placehold.co/500x350"></image>
-                    <div class="project-item-body">
-                        <div class="project-item-title">project title</div>
-                        <div class="project-item-description">Lorem ipsum dolor sit amet, </div>
-                        <div class="project-item-tech-list">
-                            <span class="project-item-tech react"><i class="fa-brands fa-react"></i><span>React</span></span>
-                            <span class="project-item-tech nodejs"><i class="fa-brands fa-node-js"></i>node js</span>
-                            <span class="project-item-tech golang"><i class="fa-brands fa-golang"></i>golang</span>
-                        </div>
-                    </div>
-                </a>
             </div>
             <h1>Wanna get in touch ?</h1>
             <div class="contact">
-                <div>i am always available for exciting discussions</div>
-                <!-- <table>
-                    <tr>
-                        <th><i class="fa-solid fa-envelope"></i></th>
-                        <th>kimsohyuncans@gmail.com</th>
-                    </tr>
-                    <tr>
-                        <th><i class="fa-solid fa-location-dot"></i></th>
-                        <th>Medan, Indonesia</th>
-                    </tr>
-                </table> -->
+                <div class="text">i am always available for exciting discussions</div>
                 <div>
-                    <span><i class="fa-solid fa-envelope"></i></span><span>  kimsohyuncans@gmail.com</span>
-                </div>
-                <div>
-                    <span><i class="fa-solid fa-location-dot"></i></span><span>  Medan, Indonesia</span>
+                    <span><i class="fa-solid fa-envelope"></i></span><span class="text">  kimsohyuncans@gmail.com</span><br/>
+                    <span><i class="fa-solid fa-location-dot"></i></span><span class="text">  Medan, Indonesia</span>
                 </div>
             </div>
         </div>
     </body>
+    <script>
+        for (let i = 0; i < 5; i++) {
+            document.getElementsByClassName('projects')[0].appendChild(document.getElementsByClassName('project-item')[0].cloneNode(true));
+        }
+    </script>
 </html>
