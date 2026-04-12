@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rizky Tanjung — Senior Software Engineer</title>
+    <meta
+      name="description"
+      content="Senior Software Engineer specializing in scalable backend systems and agentic AI integration."
+    />
+    <meta name="author" content="Rizky Tanjung" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="shell masthead__inner">
+        <a href="#top" class="mark">Rizky Tanjung</a>
+        <nav class="nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#work">Work</a>
+          <a href="#stack">Stack</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button
+          id="theme-toggle"
+          class="theme-toggle"
+          type="button"
+          aria-label="Toggle theme"
+        >
+          <span data-theme-label>Light</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- ============ ABOUT ============ -->
+      <section id="about" class="section section--hero">
+        <div class="shell">
+          <p class="eyebrow">Senior Software Engineer</p>
+          <h1 class="hero__name">Rizky Tanjung</h1>
+          <p class="hero__lede">
+            I build scalable backend systems and agentic AI products.
+            Eight years shipping production software across POS, CRM,
+            platform engineering, and AI-powered tooling — including
+            backend infrastructure for Indonesia's e-Meterai, serving
+            millions of citizens.
+          </p>
+
+          <ul class="facts">
+            <li><span>Based in</span> Medan, Indonesia</li>
+            <li><span>Focus</span> Backend · Platforms · Agentic AI</li>
+            <li><span>Core stack</span> Node.js · Go · PostgreSQL · Redis · Nginx · Prometheus · VPS</li>
+            <li><span>Status</span> Open to select engagements</li>
+          </ul>
+
+          <div class="hero__cta">
+            <a href="#work" class="btn btn--primary">View selected work</a>
+            <a href="#contact" class="btn btn--ghost">Get in touch</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ EXPERIENCE ============ -->
+      <section id="experience" class="section">
+        <div class="shell">
+          <header class="section__head">
+            <h2 class="section__title">Experience</h2>
+          </header>
+
+          <div class="timeline">
+            <article class="entry">
+              <div class="entry__meta">
+                <p class="entry__period">2024 — Present</p>
+              </div>
+              <div class="entry__body">
+                <h3 class="entry__role">Backend Engineer</h3>
+                <p class="entry__company">Dumbways.id</p>
+                <p class="entry__summary">
+                  Led backend-heavy products across POS, CRM, recruitment
+                  and AI-assisted systems. Rapid experimentation paired
+                  with production discipline.
+                </p>
+                <ul class="entry__points">
+                  <li>Designed <strong>rintis.id</strong>, an omnichannel CRM with native WhatsApp integration.</li>
+                  <li>Solo-built <strong>Mum AI</strong>, an AI-powered CRM with automation agents (OpenAI, LangChain).</li>
+                  <li>Shipped <strong>Tembuskerja</strong>, an LLM-driven job aggregator turning raw posts into structured listings.</li>
+                </ul>
+                <p class="entry__stack">NestJS · OpenAI · LangChain · PostgreSQL · WhatsApp API</p>
+              </div>
+            </article>
+
+            <article class="entry">
+              <div class="entry__meta">
+                <p class="entry__period">2023 — 2024</p>
+              </div>
+              <div class="entry__body">
+                <h3 class="entry__role">Tech Lead <span>· Freelance</span></h3>
+                <p class="entry__company">Creatif Studio</p>
+                <p class="entry__summary">
+                  Designed and delivered the MVP for a location-based
+                  laundry platform with an Uber-style pickup model —
+                  architected for rapid validation without closing the
+                  door on scale.
+                </p>
+                <ul class="entry__points">
+                  <li>Owned MVP architecture end-to-end; backend built in Go, PostgreSQL and NestJS.</li>
+                  <li>Implemented booking flow and nearest-driver matching for pickup and delivery.</li>
+                  <li>Shipped to production and released to app stores for real-world validation.</li>
+                </ul>
+                <p class="entry__stack">Golang · NestJS · PostgreSQL</p>
+              </div>
+            </article>
+
+            <article class="entry">
+              <div class="entry__meta">
+                <p class="entry__period">2019 — 2023</p>
+              </div>
+              <div class="entry__body">
+                <h3 class="entry__role">Backend Engineer</h3>
+                <p class="entry__company">PT Mejik Utama Sugiharta</p>
+                <p class="entry__summary">
+                  Platform engineering at enterprise scale — LMS,
+                  microservices infrastructure, no-code backends, and
+                  complex data sync pipelines.
+                </p>
+                <ul class="entry__points">
+                  <li>Co-architected <strong>microgen.id</strong>, a low-code microservices platform (Node.js, Apollo GraphQL, Kubernetes, MongoDB).</li>
+                  <li>Adopted by Peruri as backend infrastructure for Indonesia's <strong>e-Meterai</strong>, serving millions of citizens.</li>
+                  <li>Designed and implemented <strong>Kontenbase.com</strong>, a no-code backend platform in Go with Kubernetes and Jaeger.</li>
+                  <li>Built CDC and automation pipelines for multi-source data synchronization.</li>
+                </ul>
+                <p class="entry__stack">Node.js · Go · GraphQL · Kubernetes · MongoDB</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SELECTED WORK ============ -->
+      <section id="work" class="section">
+        <div class="shell">
+          <header class="section__head">
+            <h2 class="section__title">Selected work</h2>
+          </header>
+
+          <div class="works">
+            <article class="work">
+              <figure class="work__media">
+                <img src="img/microgen.png" alt="microgen.id dashboard" loading="lazy" />
+              </figure>
+              <div class="work__content">
+                <h3 class="work__title">microgen.id</h3>
+                <p class="work__tag">Enterprise platform</p>
+                <p class="work__body">
+                  Low-code microservices platform co-architected for
+                  enterprise. Adopted by Peruri as backend infrastructure
+                  for Indonesia's e-Meterai.
+                </p>
+                <p class="work__stack">Node.js · GraphQL · Kubernetes · MongoDB</p>
+              </div>
+              <div class="work__links">
+                <span class="work__link is-disabled" aria-disabled="true" title="Proprietary — source not public">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.82-.26.82-.58v-2.03c-3.34.73-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.77-1.34-1.77-1.1-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.84 2.8 1.3 3.5.99.1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.31-.54-1.53.12-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.3-1.55 3.3-1.23 3.3-1.23.66 1.65.25 2.87.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.8 5.62-5.48 5.92.43.37.81 1.1.81 2.22v3.3c0 .32.22.7.82.58A12 12 0 0 0 12 .3Z"/></svg>
+                  Proprietary
+                </span>
+                <a class="work__link" href="https://microgen.id/" target="_blank" rel="noopener noreferrer">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7M21 3l-9 9M10 5H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  Visit
+                </a>
+              </div>
+            </article>
+
+            <article class="work">
+              <figure class="work__media">
+                <img src="img/kontenbase.png" alt="Kontenbase platform" loading="lazy" />
+              </figure>
+              <div class="work__content">
+                <h3 class="work__title">Kontenbase.com</h3>
+                <p class="work__tag">No-code backend</p>
+                <p class="work__body">
+                  No-code backend platform for product teams with
+                  observability and distributed tracing built in.
+                </p>
+                <p class="work__stack">Go · Kubernetes · Jaeger</p>
+              </div>
+              <div class="work__links">
+                <span class="work__link is-disabled" aria-disabled="true" title="Proprietary — source not public">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.82-.26.82-.58v-2.03c-3.34.73-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.77-1.34-1.77-1.1-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.84 2.8 1.3 3.5.99.1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.31-.54-1.53.12-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.3-1.55 3.3-1.23 3.3-1.23.66 1.65.25 2.87.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.8 5.62-5.48 5.92.43.37.81 1.1.81 2.22v3.3c0 .32.22.7.82.58A12 12 0 0 0 12 .3Z"/></svg>
+                  Proprietary
+                </span>
+                <a class="work__link" href="https://kontenbase.com" target="_blank" rel="noopener noreferrer">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7M21 3l-9 9M10 5H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  Visit
+                </a>
+              </div>
+            </article>
+
+            <article class="work">
+              <figure class="work__media">
+                <img src="img/tembuskerja.png" alt="Tembuskerja listings" loading="lazy" />
+              </figure>
+              <div class="work__content">
+                <h3 class="work__title">Tembuskerja</h3>
+                <p class="work__tag">Agentic AI</p>
+                <p class="work__body">
+                  LLM-powered job aggregator. Transforms unstructured
+                  Telegram and Instagram posts into structured, queryable
+                  listings.
+                </p>
+                <p class="work__stack">LLMs · Scraping · Data pipelines</p>
+              </div>
+              <div class="work__links">
+                <span class="work__link is-disabled" aria-disabled="true" title="Proprietary — source not public">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.82-.26.82-.58v-2.03c-3.34.73-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.77-1.34-1.77-1.1-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.84 2.8 1.3 3.5.99.1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.31-.54-1.53.12-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.3-1.55 3.3-1.23 3.3-1.23.66 1.65.25 2.87.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.8 5.62-5.48 5.92.43.37.81 1.1.81 2.22v3.3c0 .32.22.7.82.58A12 12 0 0 0 12 .3Z"/></svg>
+                  Proprietary
+                </span>
+                <a class="work__link" href="https://tembuskerja.com" target="_blank" rel="noopener noreferrer">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7M21 3l-9 9M10 5H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  Visit
+                </a>
+              </div>
+            </article>
+
+            <article class="work">
+              <figure class="work__media">
+                <img src="img/mum.png" alt="Mum AI WhatsApp recruitment assistant" loading="lazy" />
+              </figure>
+              <div class="work__content">
+                <h3 class="work__title">Mum AI</h3>
+                <p class="work__tag">AI CRM · WhatsApp</p>
+                <p class="work__body">
+                  Solo-built AI-powered CRM with automation agents for
+                  workflow orchestration and customer operations,
+                  delivered over WhatsApp.
+                </p>
+                <p class="work__stack">OpenAI · LangChain · NestJS</p>
+              </div>
+              <div class="work__links">
+                <span class="work__link is-disabled" aria-disabled="true" title="Proprietary — source not public">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.82-.26.82-.58v-2.03c-3.34.73-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.77-1.34-1.77-1.1-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.84 2.8 1.3 3.5.99.1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.31-.54-1.53.12-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.3-1.55 3.3-1.23 3.3-1.23.66 1.65.25 2.87.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.8 5.62-5.48 5.92.43.37.81 1.1.81 2.22v3.3c0 .32.22.7.82.58A12 12 0 0 0 12 .3Z"/></svg>
+                  Proprietary
+                </span>
+                <a class="work__link" href="https://api.whatsapp.com/send/?phone=6281119061067&text=saya%20ingin%20lamar%20kerja&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7M21 3l-9 9M10 5H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  Chat demo
+                </a>
+              </div>
+            </article>
+
+            <article class="work">
+              <figure class="work__media">
+                <img src="img/rintisid.png" alt="rintis.id CRM" loading="lazy" />
+              </figure>
+              <div class="work__content">
+                <h3 class="work__title">rintis.id</h3>
+                <p class="work__tag">Omnichannel CRM</p>
+                <p class="work__body">
+                  Omnichannel CRM centralizing customer conversations
+                  with native WhatsApp integration.
+                </p>
+                <p class="work__stack">NestJS · WhatsApp API</p>
+              </div>
+              <div class="work__links">
+                <span class="work__link is-disabled" aria-disabled="true" title="Proprietary — source not public">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.82-.26.82-.58v-2.03c-3.34.73-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.77-1.34-1.77-1.1-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.84 2.8 1.3 3.5.99.1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.31-.54-1.53.12-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.3-1.55 3.3-1.23 3.3-1.23.66 1.65.25 2.87.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.8 5.62-5.48 5.92.43.37.81 1.1.81 2.22v3.3c0 .32.22.7.82.58A12 12 0 0 0 12 .3Z"/></svg>
+                  Proprietary
+                </span>
+                <a class="work__link" href="https://rintis.id" target="_blank" rel="noopener noreferrer">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7M21 3l-9 9M10 5H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  Visit
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ STACK ============ -->
+      <section id="stack" class="section">
+        <div class="shell">
+          <header class="section__head">
+            <h2 class="section__title">Stack</h2>
+          </header>
+
+          <dl class="stack">
+            <div>
+              <dt>Languages</dt>
+              <dd>Go, TypeScript, Node.js, JavaScript, Rust</dd>
+            </div>
+            <div>
+              <dt>Backend &amp; Data</dt>
+              <dd>NestJS, Express, GraphQL, PostgreSQL, MongoDB, Redis, Prisma</dd>
+            </div>
+            <div>
+              <dt>Platform</dt>
+              <dd>Docker, Kubernetes, Jaeger, CI/CD, Git</dd>
+            </div>
+            <div>
+              <dt>Agentic AI</dt>
+              <dd>OpenAI, LangChain, MCP, RAG &amp; memory, LLM tool-use</dd>
+            </div>
+            <div>
+              <dt>Frontend</dt>
+              <dd>React, Next.js, Tailwind</dd>
+            </div>
+            <div>
+              <dt>Workbench</dt>
+              <dd>Arch Linux, Neovim, tmux, Bash</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT ============ -->
+      <section id="contact" class="section">
+        <div class="shell">
+          <header class="section__head">
+            <h2 class="section__title">Contact</h2>
+          </header>
+
+          <p class="contact__lede">
+            Open to interesting problems — backend systems, platform
+            work, or AI-augmented products.
+          </p>
+
+          <ul class="contact__list">
+            <li>
+              <span>Email</span>
+              <a href="mailto:rizkyadilhakim@gmail.com">rizkyadilhakim@gmail.com</a>
+            </li>
+            <li>
+              <span>GitHub</span>
+              <a href="https://github.com/kimsohyuncans" target="_blank" rel="noopener noreferrer">github.com/kimsohyuncans</a>
+            </li>
+            <li>
+              <span>LinkedIn</span>
+              <a href="https://www.linkedin.com/in/rizky-tanjung" target="_blank" rel="noopener noreferrer">in/rizky-tanjung</a>
+            </li>
+            <li>
+              <span>Location</span>
+              <span>Medan, Indonesia · UTC+7</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="colophon">
+      <div class="shell colophon__inner">
+        <p>© 2026 Rizky Tanjung</p>
+        <p>Built with HTML, CSS &amp; patience.</p>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
